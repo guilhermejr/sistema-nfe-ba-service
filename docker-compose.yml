@@ -1,0 +1,14 @@
+version: "3"
+
+services:
+  monitoramento-server:
+    image: guilhermejr/sistema-nfe-ba-service
+    container_name: nfe-ba-service
+    restart: always
+    ports:
+      - "8000:80"
+
+networks:
+  default:
+    external:
+      name: rede
