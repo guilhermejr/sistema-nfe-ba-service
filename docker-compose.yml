@@ -2,7 +2,7 @@ version: "3"
 
 services:
   nfe-ba-service:
-    image: guilhermejr/nfe-ba-service
+    image: guilhermejr/sistema-nfe-ba-service
     container_name: nfe-ba-service
     restart: always
     ports:
